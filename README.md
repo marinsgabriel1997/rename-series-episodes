@@ -24,7 +24,7 @@ Onde:
 
 Exemplo: Se a série for "O Justiceiro", temporada "1" e o episódio inicial "1", o arquivo "video.mp4" será renomeado para:
 
-    O.Justiceiro S01EP01.mp4
+    O.Justiceiro S01E01.mp4
 
 ## Como usar
 

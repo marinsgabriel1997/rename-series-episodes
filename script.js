@@ -11,7 +11,7 @@ function formatSeriesName(name) {
 // Helper function to generate new filename
 function generateNewName(seriesName, seasonNum, episodeNum, fileExt) {
 	const formattedName = formatSeriesName(seriesName);
-	return `${formattedName} S${padNumber(seasonNum)}EP${padNumber(episodeNum)}${fileExt}`;
+	return `${formattedName} S${padNumber(seasonNum)}E${padNumber(episodeNum)}${fileExt}`;
 }
 
 // Function to update the preview table
