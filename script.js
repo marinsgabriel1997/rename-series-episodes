@@ -5,7 +5,7 @@ function padNumber(num) {
 
 // Helper function to format series name
 function formatSeriesName(name) {
-	return name.replace(/\s+/g, ".").replace(/[^\w.-]/g, "");
+	return name.replace(/[^\w.-]/g, " ").replace(/\s+/g, " ");
 }
 
 // Helper function to generate new filename
